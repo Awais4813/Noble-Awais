@@ -4,6 +4,10 @@ body{
     background-size: cover;
     color: white;
 }
+input {
+    font-size: 30px;
+}
+
 #title{
     text-align: center;
     font-size: 50px;
@@ -11,4 +15,30 @@ body{
 #description{
     text-align: center;
     font-size: 20px;
+}
+#survey-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 24pxx;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]{
+    font-size: 24px;
+}
+
+#dropdown {
+    font-size: 25px;
 }
